@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Django Site</title>
+</head>
+<body>
+    <h1>Welcome to Django</h1>
+    <p>My first Django web page.</p>
+
+    <button onclick="showMessage()">
+        Click Me
+    </button>
+
+    <p id="message"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Hello from Django!";
+        }
+    </script>
+</body>
+</html>
